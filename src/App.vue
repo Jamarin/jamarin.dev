@@ -5,13 +5,13 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from "vue";
+import { defineComponent } from "vue";
 import TheHeader from "@/components/general/TheHeader.vue";
 import TheFooter from "@/components/general/TheFooter.vue";
 
 export default defineComponent({
-  name: 'App',
-  components: { TheHeader, TheFooter },
+  name: "App",
+  components: { TheHeader, TheFooter }
 });
 </script>
 
